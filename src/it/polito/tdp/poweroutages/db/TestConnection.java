@@ -11,9 +11,9 @@ public class TestConnection {
 			connection.close();
 			System.out.println("Connection Test PASSED");
 			
-			PowerOutageDAO dao = new PowerOutageDAO() ;
+			//PowerOutageDAO dao = new PowerOutageDAO() ;
 			
-			System.out.println(dao.getNercList()) ;
+			//System.out.println(dao.getNercList()) ;
 
 		} catch (Exception e) {
 			System.err.println("Test FAILED");
